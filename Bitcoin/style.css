@@ -1,0 +1,122 @@
+@charset 'utf-8';
+
+/*
+ * Cascading style sheets are lists of rules that provide instructions to change the look and feel of the website
+ * A single css file can change the style of multiple pages in the website. An exmaple of a css rule is 
+ * 
+ * body (
+ * background-color : grey;
+ * )
+ * in tis rule "body" is an example of a selector
+ * selectors include elemnt tags (such as body), classes,
+ * and ID attributes
+ * 
+ * ID is more spefic than class whcih is more spefici than element
+ * a more spefic rule will overrule a less spefic rule.
+ */
+
+body {
+	background-color: goldenrod;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+p {
+	max-width: 80%;
+	font-size: 28px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+ul {
+	max-width: 80%;
+	font-size: 28px;
+	background-color: coral;
+	margin-left: auto;
+	margin-right: auto;
+border-radius: 20px;
+}
+
+#bitcoin {
+	color: yellow;
+	font-size: 36px;
+	text-decoration: underline;
+	text-transform: uppercase;
+
+}
+
+#scam {
+	color: Red;
+	text-decoration: underline;
+	text-transform: uppercase;	
+}
+#dark {
+	color: DarkSlateGrey;
+}
+
+
+#cumonlumbus {
+	color: indigo;
+}
+
+
+h1 {
+	max-width: 80%;
+	background-color: silver;
+	color: royalblue;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+
+
+nav {
+	
+	max-width: 80%;
+	background-color:  seagreen;
+	margin: 10px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+
+/*
+ * Padding is the space between an element's content and its border
+ * 
+ * Margin is the oter space around an element's
+ * border
+ */
+
+div {
+	float: left;
+	height:600px;
+	width: 40%;
+	padding: 0px, 10px;
+	
+	/*
+	 * padding 0px, 10px gives you 0px top and bittom and 10px left and right
+	 * if not symmetrical and all 4sides be given
+	 * the order is top right bottom left
+	 * (clockwise from top)
+	 */
+}
+	
+
+.firstcolumn {
+	margin-left: 8%;
+}
+
+.secondcolumn {
+	margin-right: 8%;
+}
+
